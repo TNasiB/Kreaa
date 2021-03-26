@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arka | Main</title>
+    <link rel="icon" type="image/png" href="images/fav.png">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="scss/style.css">
+    <link rel="stylesheet" href="scss/media.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+</head>
+
+<body>
+    <header class="header flex" id='header' style="background-image: url(images/header-bg.jpg)">
+        <div class="header__top flex">
+            <a class="logo-link header__link" href="#">
+                <div class="header__logo-wrapper">
+                    <img class="header__logo" src="images/logo.svg" alt="">
+                </div>
+            </a>
+            <nav class="header__nav">
+                <ul class="header__menu-list flex">
+                    <a class="header__menu-link" href="#header">
+                        <li class="header__menu-item">Start your design</li>
+                    </a>
+                    <a href="#products" class="header__menu-link">
+                        <li class="header__menu-item">All products</li>
+                    </a>
+                    <a href="#design" class="header__menu-link">
+                        <li class="header__menu-item">Custom</li>
+                    </a>
+                    <a href="#footer" class="header__menu-link">
+                        <li class="header__menu-item">About</li>
+                    </a>
+                </ul>
+            </nav>
+            <div class="header__profile">
+                <a class="header__profile-link" href="#">account</a>
+            </div>
+            <div class="header__burger">
+                <span class="header__burger-item"></span>
+            </div>
+        </div>
+        <!-- Следующий див пустой и нужен для того,
+             чтобы работало свойство justify content space between на весь хедер,
+             ведь меню навигации выведено из общего потока -->
+        <div></div>
+        <div class="header__content">
+            <div class="container">
+                <div class="header__content-inner flex">
+                    <h1 class="header__content-title">Fast and easy custom boxes your customers will love</h1>
+                    <p class="header__content-subtitle">Fastest turnaround. Best prices instantly. Dieline design help
+                        available.</p>
+                    <button class="header__content-btn btn">start your design</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="header__low">
+            <div class="container">
+                <div class="header__low-inner flex">
+                    <div class="header__low-item flex">
+                        <img class="header__low-item-img" src="images/header-ico1.png" alt="23232">
+                        <p class="header__low-item-text">Shopify Integrated</p>
+                    </div>
+                    <div class="header__low-item flex">
+                        <img class="header__low-item-img" src="images/header-ico2.png" alt="">
+                        <p class="header__low-item-text">Amazon Certified </p>
+
+                    </div>
+                    <div class="header__low-item flex">
+                        <img class="header__low-item-img" src="images/header-ico3.png" alt="">
+                        <p class="header__low-item-text">Eco-Friendly</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </header>
+    <div class="filter"></div>
+    <section class="products" id="products">
+        <div class="container">
+            <div class="products__inner flex">
+                <div class="products__top flex">
+                    <h3 class="products__title">Products you can customize</h3>
+                    <button class="products__btn btn">Browse all products</button>
+                </div>
+                <div class="products__items flex">
+                    <div class="products__item">
+                        <img src="images/products-img1.png" alt="" class="products__item-img">
+                        <div class="products__item-info flex">
+                            <div class="products__item-text">
+                                <h4 class="products__item-title">Custom Carton Boxes</h4>
+                                <p class="products__item-subt">Create a clean brand presentation with this custom carton
+                                    box.</p>
+                            </div>
+                            <div class="products__item-date">
+                                Starting at: $10.44/unit
+                            </div>
+                        </div>
+                    </div>
+                    <div class="products__item">
+                        <img src="images/products-img2.png" alt="" class="products__item-img">
+                        <div class="products__item-info flex">
+                            <div class="products__item-text">
+                                <h4 class="products__item-title">Custom Boxes</h4>
+                                <p class="products__item-subt">A stylish and strong corrugated cardboard box.</p>
+                            </div>
+                            <div class="products__item-date">
+                                Starting at: $10.44/unit
+                            </div>
+                        </div>
+                    </div>
+                    <div class="products__item">
+                        <img src="images/products-img3.png" alt="" class="products__item-img">
+                        <div class="products__item-info flex">
+                            <div class="products__item-text">
+                                <h4 class="products__item-title">Custom Poly Mailers</h4>
+                                <p class="products__item-subt">A fully custom high quality self sealing poly mailer.</p>
+                            </div>
+                            <div class="products__item-date">
+                                Starting at: $10.44/unit
+                            </div>
+                        </div>
+                    </div>
+                    <div class="products__item">
+                        <img src="images/products-img4.png" alt="" class="products__item-img">
+                        <div class="products__item-info flex">
+                            <div class="products__item-text">
+                                <h4 class="products__item-title">Custom Tape</h4>
+                                <p class="products__item-subt">High quality custom tape to seal your shipping boxes
+                                    during delivery.</p>
+                            </div>
+                            <div class="products__item-date">
+                                Starting at: $10.44/unit
+                            </div>
+                        </div>
+                    </div>
+                    <div class="products__item">
+                        <img src="images/products-img5.png" alt="" class="products__item-img">
+                        <div class="products__item-info flex">
+                            <div class="products__item-text">
+                                <h4 class="products__item-title">Custom Stickers</h4>
+                                <p class="products__item-subt">Add personality to your packages with custom stickers.
+                                </p>
+                            </div>
+                            <div class="products__item-date">
+                                Starting at: $10.44/unit
+                            </div>
+                        </div>
+                    </div>
+                    <div class="products__item">
+                        <img src="images/products-img6.png" alt="" class="products__item-img">
+                        <div class="products__item-info flex">
+                            <div class="products__item-text">
+                                <h4 class="products__item-title">Custom Tissue Paper</h4>
+                                <p class="products__item-subt">The perfect addition to branding your package.</p>
+                            </div>
+                            <div class="products__item-date">
+                                Starting at: $10.44/unit
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="products__low flex">
+                    <p class="products__low-text">
+                        Need unbranded stock items?
+                    </p>
+                    <button class="products__low-btn btn">shop stock</button>
+                </div>
+            </div>
+        </div>
+     
+    </section>
+    <section class="design" id="design">
+        <div class="container">
+            <div class="design__inner flex">
+                <h3 class="design__title">
+                    Fast and easy custom boxes your customers will love
+                </h3>
+                <div class="design__items flex">
+                    <div class="design__item flex">
+                        <img class="design__item-img" src="images/design-ico-1.png" alt="">
+                        <h3 class="design__item-title title">
+                            You Order
+                        </h3>
+                        <p class="design__item-subtitle desc">
+                            Design and order boxes in a few clicks.
+                        </p>
+                    </div>
+
+                    <div class="design__item flex">
+                        <img class="design__item-img" src="images/design-ico-2.png" alt="">
+                        <h3 class="design__item-title title">
+                            We Proof
+                        </h3>
+                        <p class="design__item-subtitle desc">
+                            Approve your designs before production.
+                        </p>
+                    </div>
+
+                    <div class="design__item flex">
+                        <img class="design__item-img" src="images/design-ico-3.png" alt="">
+                        <h3 class="design__item-title title">
+                            We Print & Ship
+                        </h3>
+                        <p class="design__item-subtitle desc">
+                            Your order gets printed and shipped with tracking.
+                        </p>
+                    </div>
+                </div>
+                <div class="design__btn btn">Start your design</div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="advantage">
+        <div class="container">
+            <h3 class="advantage__title">The Arka advantage</h3>
+            <div class="advantage__inner flex">
+                <div class="advantage__item flex">
+                    <img class="advantage__item-img" src="images/advantage-ico-1.png" alt="">
+                    <h3 class="advantage__item-title title">
+                        Eco-Friendly Material
+                    </h3>
+                    <p class="advantage__item-subtitle desc">
+                        Order as little as 10, giving you the lowest minimums in the industry at the best prices.
+                    </p>
+                </div>
+                <div class="advantage__item flex">
+                    <img class="advantage__item-img" src="images/advantage-ico-2.png" alt="">
+                    <h3 class="advantage__item-title title">
+                        Full Outside Print
+                    </h3>
+                    <p class="advantage__item-subtitle desc">
+                        Design what you want - no extra cost! Prices include 100% exterior print, change design
+                        whenever!
+                    </p>
+                </div>
+                <div class="advantage__item flex">
+                    <img class="advantage__item-img" src="images/advantage-ico-3.png" alt="">
+                    <h3 class="advantage__item-title title">
+                        Proofing
+                    </h3>
+                    <p class="advantage__item-subtitle desc">
+                        After you order, our internal designers help make sure your designs are 100% ready for printing!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section> 
+    <section class="request">
+        <div class="container">
+            <div class="request__inner flex">
+                <div class="request__item flex">
+                    <img class="request__item-img" src="images/request-ico1.png" alt="">
+                    <h4 class="request__item-title">Couldn't find a size you need?</h4>
+                    <p class="request__item-desc">
+                        We’ll work directly with you to create a fully branded packaging system.
+                    </p>
+                    <button class="request__item-btn btn">Request a quote</button>
+                </div>
+                <div class="request__item flex">
+                    <img class="request__item-img" src="images/request-ico2.png" alt="">
+                    <h4 class="request__item-title">Need a free dieline template?</h4>
+                    <p class="request__item-desc">
+                        Let us know what size you need and we'll email an Adobe Illustrator dieline to you within 3-4
+                        business days.
+                    </p>
+                    <button class="request__item-btn btn">RRequest dieline</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="get">
+        <div class="container">
+            <div class="get__inner flex">
+                <h3 class="get__title">Let`s get to it</h3>
+                <div class="get__btn-inner flex">
+                    <button class="get__btn btn">Start your design</button>
+                    <button class="get__btn btn">Browse all products</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer" id="footer">
+        <div class="footer__inner flex">
+            <a href="#"><img src="images/logo.svg" alt="" class="footer__item-logo"></a>
+            <div class="footer__item">
+                <ul class="footer__item-menu">
+                    <a href="#">
+                        <li class="footer__item-item">Custom Design</li>
+                    </a>
+                    <a href="#">
+                        <li class="footer__item-item">All Products</li>
+                    </a>
+                    <a href="#">
+                        <li class="footer__item-item">Inspiration</li>
+                    </a>
+                    <a href="#">
+                        <li class="footer__item-item">Sustainability</li>
+                    </a>
+                    <a href="#">
+                        <li class="footer__item-item">Affiliate Program</li>
+                    </a>
+                    <a href="#">
+                        <li class="footer__item-item">Request Custom Quote</li>
+                    </a>
+                    <a href="#">
+                        <li class="footer__item-item">Request Dieline</li>
+                    </a>
+                </ul>
+            </div>
+            <div class="footer__item">
+                <ul class="footer__item-menu">
+                    <a href="#">
+                        <li class="footer__item-item">About Us</li>
+                    </a>
+                    <a href="#">
+                        <li class="footer__item-item">Blog</li>
+                    </a>
+                    <a href="#">
+                        <li class="footer__item-item">Partners</li>
+                    </a>
+                    <a href="#">
+                        <li class="footer__item-item">Contact Us</li>
+                    </a>
+                    <a href="#">
+                        <li class="footer__item-item">FAQ</li>
+                    </a>
+                    <a href="#">
+                        <li class="footer__item-item">Terms & Conditions</li>
+                    </a>
+                </ul>
+            </div>
+            <div class="footer__item">
+                <ul class="footer__item-menu">
+                    <a href="#">
+                        <li class="footer__item-item">Shopify App</li>
+                    </a>
+                    <a href="#">
+                        <li class="footer__item-item">14 Day Free Shopify Trial</li>
+                    </a>
+                    <a href="#">
+                        <li class="footer__item-item">BigCommerce</li>
+                    </a>
+                    <li class="footer__item-item footer__item-soc">
+                        <a href="https://www.facebook.com/" class="footer__item-soc-link">
+                            <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                        </a>
+                        <a href="https://twitter.com/" class="footer__item-soc-link">
+                            <i class="fa fa-twitter" aria-hidden="true"></i>
+                        </a>
+                        <a href="https://www.instagram.com/" class="footer__item-soc-link">
+                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__item">
+                <form action="" class="footer__form flex">
+                    <p class="footer__form-desc">Get exclusive offers and tips.</p>
+                    <input class="footer__form-input" type="text" placeholder="Your Email">
+                    <button class="footer__form-btn btn">Join instantly</button>
+                </form>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/mail.js"></script>
+</body>
+
+</html>

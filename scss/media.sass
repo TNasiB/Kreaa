@@ -1,0 +1,187 @@
+@media (max-width: 1215px)
+    .products__items
+        justify-content: center    
+@media (max-width: 1044px)
+    .header
+        &__top
+        &__nav
+            display: block
+            position: absolute
+            top: 41px
+            left: 0
+            width: 100%
+            text-align: center
+            left: -100%
+            transition: left .3s ease
+            overflow: auto
+        &__menu-list
+            flex-direction: column
+            background-color: #EEEEEE
+            box-shadow: 0 20px 20px rgba(0, 0, 0, 0.25)
+            padding: 0
+            font-size: 20px
+            // height: 100vh
+        &__menu-item
+            padding: 15px 0
+            border-bottom: 1px solid #000
+            width: 100%
+            margin: 0
+        &__profile
+            display: none
+        &__burger
+            display: block
+            width: 40px
+            height: 35px
+            position: relative
+            cursor: pointer
+            &-item, &::after, &::before
+                height: 3px
+                width: 100%
+                position: absolute
+                background-color: #3D5675
+            &::after, &::before
+                content: ''
+            &::after
+                bottom: 5px
+            &::before
+                top: 5px
+            &-item
+                top: 16px
+        &__low
+            &-inner
+                justify-content: space-between
+            &-item
+                margin: 10px
+@media (max-width: 945px)
+    .footer__inner
+        flex-direction: column
+        align-items: center
+    .footer__item
+        text-align: center
+        margin-bottom: 30px
+    .footer__item-logo
+        margin-bottom: 35px
+@media (max-width: 1029px)
+    .design__items
+        justify-content: center
+    .design__inner 
+        padding: 40px 50px
+    .footer__inner
+        padding: 45px 40px
+@media (max-width: 851px)
+    .advantage__inner
+        justify-content: center
+    .advantage
+        padding: 40px 70px
+    .advantage__title
+        text-align: center
+        margin-bottom: 30px
+    .advantage__item-title
+        margin-top: 15px
+    .request__inner
+        padding: 55px 45px
+    .request
+        padding: 50px 60px
+@media (max-width: 840px)
+    .request__inner
+        justify-content: center
+    .request__item
+        margin-bottom: 60px
+        &:nth-child(1)
+            border: none   
+    .products__low-btn
+        padding: 10px 25px
+    .products
+        padding: 25px 0
+    .design
+        padding: 25px 0
+    .products__top
+        margin-bottom: 25px               
+@media (max-width: 755px)
+    .header
+        min-height: auto
+        &__content
+            // text-align: center
+            &-title
+                // font-size: 32px
+            &-subtitle
+            &-btn
+                padding: 10px 20px
+                align-self: flex-start
+            &-inner
+                min-height: 80vh
+                justify-content: center
+
+        &__low
+            max-height: 80px
+            &-item
+                flex-direction: column
+                text-align: center
+                max-height: 80px
+                margin: 0
+                &-img
+                &-text
+                    display: none
+@media (max-width: 729px)
+    .design__item
+@media (max-width: 711px)
+    .products__top
+        flex-direction: column
+    .products__title
+        margin-bottom: 30px
+    .request__inner
+        padding: 40px 20px 0
+@media (max-width: 509px)
+    .products__title
+        font-size: 24px
+    .get
+        padding: 40px 0
+    .get__btn-inner
+        flex-direction: column
+    .get__btn
+        margin-bottom: 20px
+    .request
+        padding: 50px 20px
+    .header
+        &__content
+            text-align: center
+            &-title
+                font-size: 32px
+            &-inner
+                align-items: center
+            &-btn
+                align-self: center
+    .design__title
+        font-size: 25px
+@media (max-width: 432px)
+    .products__title
+        text-align: center
+    .products__low 
+        flex-direction: column
+    .products__low-btn
+        margin: 20px 0 0 0
+@media (max-width: 405px)
+    .products__item
+        display: flex
+        flex-direction: column
+        align-items: center
+    .products__item-img
+        width: 250px
+
+@media (max-width: 376px)
+    .header
+        &__low
+            max-height: 160px
+            &-item
+                min-height: 80px
+            &-inner
+                height: 160px
+                justify-content: center
+    .design__title
+        font-size: 20px
+    .request
+        padding: 30px 7px
+@media (max-width: 333px)
+    .design__btn
+        font-size: 12px
+
